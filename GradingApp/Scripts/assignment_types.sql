@@ -1,0 +1,4 @@
+﻿CREATE TABLE assignment_types (
+	id BIGINT PRIMARY KEY AUTOINCREMENT NOT NULL,
+	"name" VARCHAR(255)
+);
