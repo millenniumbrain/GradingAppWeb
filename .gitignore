@@ -30,3 +30,16 @@ msbuild.wrn
 
 # Visual Studio 2015
 .vs/
+
+# js modules
+GradingApp/wwwroot/node_modules
+GradingApp/wwwroot/.yardoc/*
+GradingApp/wwwroot/.yardoc/*
+GradingApp/wwwroot/js/*
+
+# sass-cache
+GradingApp/wwwroot/.sass-cache
+
+# sass output files
+GradingApp/wwwroot/css/*
+*.map
