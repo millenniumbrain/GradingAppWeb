@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace GradingApp.Pages
 {
-    public class LoginModel : PageModel
+    public class SignInModel : PageModel
     {
         public void OnGet()
         {

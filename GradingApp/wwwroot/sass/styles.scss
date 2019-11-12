@@ -1,0 +1,53 @@
+﻿@import "base";
+
+.header-container {
+    padding: 2% 0;
+}
+
+#header {
+    text-align: center;
+    color: #fff;
+    h1 {
+        margin: 0;
+        font-size: 2.5em;
+    }
+}
+
+#nav {
+    font-family: "Cabin", sans-serif;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-item {
+    text-align: center;
+    display: inline-block;
+    width: 85px;
+}
+
+.menu-item-link {
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+
+    .fas {
+        font-size: 0.8em;
+        margin-left: 8px;
+    }
+}
+
+#header {
+    font-family: "Cabin", sans-serif;
+}
+
+#content {
+    background: #fff;
+    margin: 0 auto;
+    height: 100%;
+    padding: 2%;
+    width: 90%;
+
+}

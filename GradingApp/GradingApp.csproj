@@ -5,11 +5,16 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Shared\" />
+    <Compile Remove="Pages\Shared\**" />
+    <Content Remove="Pages\Shared\**" />
+    <EmbeddedResource Remove="Pages\Shared\**" />
+    <None Remove="Pages\Shared\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\img\" />
     <Folder Include="wwwroot\css\" />
-    <Folder Include="wwwroot\sass\" />
     <Folder Include="wwwroot\ts\" />
   </ItemGroup>
 
